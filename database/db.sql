@@ -1,3 +1,6 @@
+--connect mysql
+mysql -u root -p
+
 -- creating database
 CREATE DATABASE todolistnode;
 
