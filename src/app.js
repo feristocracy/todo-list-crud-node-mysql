@@ -21,7 +21,8 @@ app.use(myConnection(mysql, {
     password: "Ragnarok.7",
     port: "3306",
     database: "todolistnode"
-}, "single"))
+}, "single"));
+
 app.use(express.urlencoded({extended: false}))
 
 //routes
